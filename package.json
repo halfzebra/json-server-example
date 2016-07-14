@@ -1,16 +1,16 @@
 {
   "name": "json-server-example",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Example project with json-server API mock",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/.bin/json-server --watch db.json"
+    "start": "json-server --watch data/db.json --port 3004"
   },
-  "keywords": [],
+  "keywords": [ "example" ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "json-server": "^0.8.14"
+    "json-server": "^0.8.16"
   }
 }
